@@ -1,0 +1,186 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/Adafruit_CircuitPlayground.cpp
+Adafruit_Circuit_Playground.h
+-
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/Adafruit_Circuit_Playground.h
+Arduino.h
+-
+utility/Adafruit_CPlay_NeoPixel.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.h
+utility/Adafruit_CPlay_LIS3DH.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.h
+utility/Adafruit_CPlay_Mic.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.h
+utility/Adafruit_CPlay_Speaker.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.h
+utility/CP_Firmata.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.h
+utility/CPlay_CapacitiveSensor.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.h
+utility/Adafruit_CPlay_FreeTouch.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.h
+utility/IRLibCPE.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibCPE.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_FreeTouch.h
+Arduino.h
+-
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_LIS3DH.h
+Arduino.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Arduino.h
+WProgram.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/WProgram.h
+Wire.h
+-
+SPI.h
+-
+utility/Adafruit_CPlay_Sensor.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/utility/Adafruit_CPlay_Sensor.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Mic.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_NeoPixel.h
+Arduino.h
+-
+WProgram.h
+-
+pins_arduino.h
+-
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Sensor.h
+Arduino.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Arduino.h
+Print.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Print.h
+WProgram.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/WProgram.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Adafruit_CPlay_Speaker.h
+Arduino.h
+-
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/CP_Boards.h
+inttypes.h
+-
+Arduino.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Arduino.h
+WProgram.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/WProgram.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/CP_Firmata.h
+CP_Boards.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/CP_Boards.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/CPlay_CapacitiveSensor.h
+Arduino.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/Arduino.h
+WProgram.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/WProgram.h
+scss_registers.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/scss_registers.h
+portable.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/portable.h
+avr/pgmspace.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/avr/pgmspace.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibCPE.h
+IRLibDecodeBase.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.h
+IRLibSendBase.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.h
+IRLib_P01_NEC.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P01_NEC.h
+IRLib_P02_Sony.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P02_Sony.h
+IRLib_P03_RC5.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P03_RC5.h
+IRLib_P04_RC6.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P04_RC6.h
+IRLib_P05_Panasonic_Old.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P05_Panasonic_Old.h
+IRLib_P06_JVC.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P06_JVC.h
+IRLib_P07_NECx.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P07_NECx.h
+IRLib_P08_Samsung36.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P08_Samsung36.h
+IRLib_P09_GICable.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P09_GICable.h
+IRLib_P10_DirecTV.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P10_DirecTV.h
+IRLib_P11_RCMM.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P11_RCMM.h
+IRLib_P12_CYKM.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P12_CYKM.h
+IRLibCombo.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibCombo.h
+IRLibRecvPCI.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibCombo.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibDecodeBase.h
+IRLibGlobals.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibGlobals.h
+IRLibProtocols.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibGlobals.h
+Arduino.h
+-
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.h
+Arduino.h
+-
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.h
+IRLibGlobals.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibGlobals.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvPCI.h
+IRLibRecvBase.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibRecvBase.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibSendBase.h
+IRLibProtocols.h
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLibProtocols.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P01_NEC.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P02_Sony.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P03_RC5.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P04_RC6.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P05_Panasonic_Old.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P06_JVC.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P07_NECx.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P08_Samsung36.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P09_GICable.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P10_DirecTV.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P11_RCMM.h
+
+C:/Program Files (x86)/Arduino/libraries/Adafruit_Circuit_Playground/utility/IRLib_P12_CYKM.h
+Keyboard.h
+-
+Mouse.h
+-
+HID.h
+-
+

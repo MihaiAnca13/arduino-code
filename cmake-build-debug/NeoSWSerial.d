@@ -1,0 +1,36 @@
+NeoSWSerial.o: C:\Users\Mihai\AppData\Local\Temp\preamble-80218d.pch \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs\..\standard\pins_arduino.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs\pins_arduino.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\util\delay_basic.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\util\delay.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\avr\eeprom.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBAPI.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\Printable.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include\stddef.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include\stdarg.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\stdio.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\Print.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\Stream.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\WString.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\ctype.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\WCharacter.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\binary.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\avr\interrupt.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\avr\lock.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\avr\fuse.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\avr\version.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\avr\common.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\avr\portpins.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\avr\sfr_defs.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\avr\io.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\stdint.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include\stdint.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\inttypes.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\avr\pgmspace.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\math.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\string.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include\stdbool.h \
+  C:\Program\ Files\ (x86)\Arduino\hardware\tools\avr\avr\include\stdlib.h \
+  D:\Google\ Drive\Disertation\arduino\untitled\NeoSWSerial.h
