@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = "D:\Google Drive\Disertation\arduino\untitled\cmake-build-deb
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named nano_ei_porta_speed
+# Target rules for targets named nano_ServoTimers
 
 # Build rule for target.
-nano_ei_porta_speed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_porta_speed
-.PHONY : nano_ei_porta_speed
+nano_ServoTimers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 nano_ServoTimers
+.PHONY : nano_ServoTimers
 
 # fast build rule for target.
-nano_ei_porta_speed/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_porta_speed.dir\build.make CMakeFiles/nano_ei_porta_speed.dir/build
-.PHONY : nano_ei_porta_speed/fast
+nano_ServoTimers/fast:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/build
+.PHONY : nano_ServoTimers/fast
 
 #=============================================================================
 # Target rules for targets named nano_CORE
@@ -136,251 +136,17 @@ nano_CORE/fast:
 .PHONY : nano_CORE/fast
 
 #=============================================================================
-# Target rules for targets named nano_ei_PinChangeTiny24
+# Target rules for targets named nano_Servo
 
 # Build rule for target.
-nano_ei_PinChangeTiny24: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_PinChangeTiny24
-.PHONY : nano_ei_PinChangeTiny24
+nano_Servo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 nano_Servo
+.PHONY : nano_Servo
 
 # fast build rule for target.
-nano_ei_PinChangeTiny24/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeTiny24.dir\build.make CMakeFiles/nano_ei_PinChangeTiny24.dir/build
-.PHONY : nano_ei_PinChangeTiny24/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_pindefs_speed
-
-# Build rule for target.
-nano_ei_pindefs_speed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_pindefs_speed
-.PHONY : nano_ei_pindefs_speed
-
-# fast build rule for target.
-nano_ei_pindefs_speed/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_pindefs_speed.dir\build.make CMakeFiles/nano_ei_pindefs_speed.dir/build
-.PHONY : nano_ei_pindefs_speed/fast
-
-#=============================================================================
-# Target rules for targets named nano_EnableInterrupt
-
-# Build rule for target.
-nano_EnableInterrupt: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_EnableInterrupt
-.PHONY : nano_EnableInterrupt
-
-# fast build rule for target.
-nano_EnableInterrupt/fast:
-	$(MAKE) -f CMakeFiles\nano_EnableInterrupt.dir\build.make CMakeFiles/nano_EnableInterrupt.dir/build
-.PHONY : nano_EnableInterrupt/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_PinChangeTiny25
-
-# Build rule for target.
-nano_ei_PinChangeTiny25: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_PinChangeTiny25
-.PHONY : nano_ei_PinChangeTiny25
-
-# fast build rule for target.
-nano_ei_PinChangeTiny25/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeTiny25.dir\build.make CMakeFiles/nano_ei_PinChangeTiny25.dir/build
-.PHONY : nano_ei_PinChangeTiny25/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_portc_speed
-
-# Build rule for target.
-nano_ei_portc_speed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_portc_speed
-.PHONY : nano_ei_portc_speed
-
-# fast build rule for target.
-nano_ei_portc_speed/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_portc_speed.dir\build.make CMakeFiles/nano_ei_portc_speed.dir/build
-.PHONY : nano_ei_portc_speed/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_PinChange1284
-
-# Build rule for target.
-nano_ei_PinChange1284: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_PinChange1284
-.PHONY : nano_ei_PinChange1284
-
-# fast build rule for target.
-nano_ei_PinChange1284/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange1284.dir\build.make CMakeFiles/nano_ei_PinChange1284.dir/build
-.PHONY : nano_ei_PinChange1284/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_PinChange2560
-
-# Build rule for target.
-nano_ei_PinChange2560: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_PinChange2560
-.PHONY : nano_ei_PinChange2560
-
-# fast build rule for target.
-nano_ei_PinChange2560/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange2560.dir\build.make CMakeFiles/nano_ei_PinChange2560.dir/build
-.PHONY : nano_ei_PinChange2560/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_PinChange328
-
-# Build rule for target.
-nano_ei_PinChange328: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_PinChange328
-.PHONY : nano_ei_PinChange328
-
-# fast build rule for target.
-nano_ei_PinChange328/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange328.dir\build.make CMakeFiles/nano_ei_PinChange328.dir/build
-.PHONY : nano_ei_PinChange328/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_PinChangeLeonardo
-
-# Build rule for target.
-nano_ei_PinChangeLeonardo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_PinChangeLeonardo
-.PHONY : nano_ei_PinChangeLeonardo
-
-# fast build rule for target.
-nano_ei_PinChangeLeonardo/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeLeonardo.dir\build.make CMakeFiles/nano_ei_PinChangeLeonardo.dir/build
-.PHONY : nano_ei_PinChangeLeonardo/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_External1284
-
-# Build rule for target.
-nano_ei_External1284: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_External1284
-.PHONY : nano_ei_External1284
-
-# fast build rule for target.
-nano_ei_External1284/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_External1284.dir\build.make CMakeFiles/nano_ei_External1284.dir/build
-.PHONY : nano_ei_External1284/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_External328
-
-# Build rule for target.
-nano_ei_External328: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_External328
-.PHONY : nano_ei_External328
-
-# fast build rule for target.
-nano_ei_External328/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_External328.dir\build.make CMakeFiles/nano_ei_External328.dir/build
-.PHONY : nano_ei_External328/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_External2560
-
-# Build rule for target.
-nano_ei_External2560: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_External2560
-.PHONY : nano_ei_External2560
-
-# fast build rule for target.
-nano_ei_External2560/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_External2560.dir\build.make CMakeFiles/nano_ei_External2560.dir/build
-.PHONY : nano_ei_External2560/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_ExternalLeonardo
-
-# Build rule for target.
-nano_ei_ExternalLeonardo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_ExternalLeonardo
-.PHONY : nano_ei_ExternalLeonardo
-
-# fast build rule for target.
-nano_ei_ExternalLeonardo/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalLeonardo.dir\build.make CMakeFiles/nano_ei_ExternalLeonardo.dir/build
-.PHONY : nano_ei_ExternalLeonardo/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_portd_speed
-
-# Build rule for target.
-nano_ei_portd_speed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_portd_speed
-.PHONY : nano_ei_portd_speed
-
-# fast build rule for target.
-nano_ei_portd_speed/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_portd_speed.dir\build.make CMakeFiles/nano_ei_portd_speed.dir/build
-.PHONY : nano_ei_portd_speed/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_ExternalTiny24
-
-# Build rule for target.
-nano_ei_ExternalTiny24: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_ExternalTiny24
-.PHONY : nano_ei_ExternalTiny24
-
-# fast build rule for target.
-nano_ei_ExternalTiny24/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalTiny24.dir\build.make CMakeFiles/nano_ei_ExternalTiny24.dir/build
-.PHONY : nano_ei_ExternalTiny24/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_ExternalTiny25
-
-# Build rule for target.
-nano_ei_ExternalTiny25: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_ExternalTiny25
-.PHONY : nano_ei_ExternalTiny25
-
-# fast build rule for target.
-nano_ei_ExternalTiny25/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalTiny25.dir\build.make CMakeFiles/nano_ei_ExternalTiny25.dir/build
-.PHONY : nano_ei_ExternalTiny25/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_portb_speed
-
-# Build rule for target.
-nano_ei_portb_speed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_portb_speed
-.PHONY : nano_ei_portb_speed
-
-# fast build rule for target.
-nano_ei_portb_speed/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_portb_speed.dir\build.make CMakeFiles/nano_ei_portb_speed.dir/build
-.PHONY : nano_ei_portb_speed/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_portj_speed
-
-# Build rule for target.
-nano_ei_portj_speed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_portj_speed
-.PHONY : nano_ei_portj_speed
-
-# fast build rule for target.
-nano_ei_portj_speed/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_portj_speed.dir\build.make CMakeFiles/nano_ei_portj_speed.dir/build
-.PHONY : nano_ei_portj_speed/fast
-
-#=============================================================================
-# Target rules for targets named nano_ei_portk_speed
-
-# Build rule for target.
-nano_ei_portk_speed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 nano_ei_portk_speed
-.PHONY : nano_ei_portk_speed
-
-# fast build rule for target.
-nano_ei_portk_speed/fast:
-	$(MAKE) -f CMakeFiles\nano_ei_portk_speed.dir\build.make CMakeFiles/nano_ei_portk_speed.dir/build
-.PHONY : nano_ei_portk_speed/fast
+nano_Servo/fast:
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/build
+.PHONY : nano_Servo/fast
 
 #=============================================================================
 # Target rules for targets named untitled
@@ -1082,6 +848,156 @@ C_/Program_Files_(x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c
 	$(MAKE) -f CMakeFiles\nano_CORE.dir\build.make CMakeFiles/nano_CORE.dir/C_/Program_Files_(x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.s
 .PHONY : C_/Program_Files_(x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.s
 
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.obj: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.obj
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.obj
+
+# target to build an object file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.obj:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.obj
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.obj
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.obj
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.i: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.i
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.i
+
+# target to preprocess a source file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.i
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.i
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.i
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.s: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.s
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.s
+
+# target to generate assembly for a file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.s
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.s
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.cpp.s
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.obj: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.obj
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.obj
+
+# target to build an object file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.obj:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.obj
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.obj
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.obj
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.i: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.i
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.i
+
+# target to preprocess a source file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.i
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.i
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.i
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.s: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.s
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.s
+
+# target to generate assembly for a file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.s
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.s
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp.s
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.obj: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.obj
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.obj
+
+# target to build an object file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.obj:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.obj
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.obj
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.obj
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.i: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.i
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.i
+
+# target to preprocess a source file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.i
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.i
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.i
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.s: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.s
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.s
+
+# target to generate assembly for a file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.s
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.s
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.cpp.s
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.obj: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.obj
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.obj
+
+# target to build an object file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.obj:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.obj
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.obj
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.obj
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.i: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.i
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.i
+
+# target to preprocess a source file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.i
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.i
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.i
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.s: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.s
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.s
+
+# target to generate assembly for a file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.s
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.s
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.cpp.s
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.obj: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.obj
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.obj
+
+# target to build an object file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.obj:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.obj
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.obj
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.obj
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.i: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.i
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.i
+
+# target to preprocess a source file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.i:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.i
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.i
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.i
+
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.s: C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.s
+
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.s
+
+# target to generate assembly for a file
+C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.s:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.s
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.s
+.PHONY : C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp.s
+
 untitled_driving.ino.obj: untitled_driving.ino.cpp.obj
 
 .PHONY : untitled_driving.ino.obj
@@ -1115,33 +1031,15 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... nano_ei_porta_speed
+	@echo ... nano_ServoTimers
 	@echo ... nano_CORE
-	@echo ... nano_ei_PinChangeTiny24
-	@echo ... nano_ei_pindefs_speed
-	@echo ... nano_EnableInterrupt
-	@echo ... nano_ei_PinChangeTiny25
-	@echo ... nano_ei_portc_speed
-	@echo ... nano_ei_PinChange1284
-	@echo ... nano_ei_PinChange2560
-	@echo ... nano_ei_PinChange328
-	@echo ... nano_ei_PinChangeLeonardo
-	@echo ... nano_ei_External1284
-	@echo ... nano_ei_External328
-	@echo ... nano_ei_External2560
-	@echo ... nano_ei_ExternalLeonardo
-	@echo ... nano_ei_portd_speed
-	@echo ... nano_ei_ExternalTiny24
-	@echo ... nano_ei_ExternalTiny25
-	@echo ... nano_ei_portb_speed
-	@echo ... nano_ei_portj_speed
-	@echo ... rebuild_cache
-	@echo ... nano_ei_portk_speed
+	@echo ... nano_Servo
+	@echo ... edit_cache
 	@echo ... untitled
 	@echo ... untitled-size
 	@echo ... untitled-upload
 	@echo ... upload
-	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... C_/Program_Files_(x86)/Arduino/hardware/arduino/avr/cores/arduino/CDC.obj
 	@echo ... C_/Program_Files_(x86)/Arduino/hardware/arduino/avr/cores/arduino/CDC.i
 	@echo ... C_/Program_Files_(x86)/Arduino/hardware/arduino/avr/cores/arduino/CDC.s
@@ -1214,6 +1112,21 @@ help:
 	@echo ... C_/Program_Files_(x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.obj
 	@echo ... C_/Program_Files_(x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.i
 	@echo ... C_/Program_Files_(x86)/Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.s
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.obj
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.i
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/avr/Servo.s
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.obj
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.i
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/nrf52/Servo.s
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.obj
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.i
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/sam/Servo.s
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.obj
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.i
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/samd/Servo.s
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.obj
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.i
+	@echo ... C_/Program_Files_(x86)/Arduino/libraries/Servo/src/stm32f4/Servo.s
 	@echo ... untitled_driving.ino.obj
 	@echo ... untitled_driving.ino.i
 	@echo ... untitled_driving.ino.s

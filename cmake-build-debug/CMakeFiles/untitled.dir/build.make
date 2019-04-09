@@ -82,26 +82,8 @@ untitled_EXTERNAL_OBJECTS =
 
 untitled.elf: CMakeFiles/untitled.dir/untitled_driving.ino.cpp.obj
 untitled.elf: CMakeFiles/untitled.dir/build.make
-untitled.elf: libnano_ei_pindefs_speed.a
-untitled.elf: libnano_ei_PinChange1284.a
-untitled.elf: libnano_ei_PinChange328.a
-untitled.elf: libnano_ei_PinChange2560.a
-untitled.elf: libnano_ei_PinChangeLeonardo.a
-untitled.elf: libnano_ei_PinChangeTiny24.a
-untitled.elf: libnano_ei_PinChangeTiny25.a
-untitled.elf: libnano_ei_External1284.a
-untitled.elf: libnano_ei_External328.a
-untitled.elf: libnano_ei_External2560.a
-untitled.elf: libnano_ei_ExternalLeonardo.a
-untitled.elf: libnano_ei_ExternalTiny24.a
-untitled.elf: libnano_ei_ExternalTiny25.a
-untitled.elf: libnano_ei_porta_speed.a
-untitled.elf: libnano_ei_portb_speed.a
-untitled.elf: libnano_ei_portc_speed.a
-untitled.elf: libnano_ei_portd_speed.a
-untitled.elf: libnano_ei_portj_speed.a
-untitled.elf: libnano_ei_portk_speed.a
-untitled.elf: libnano_EnableInterrupt.a
+untitled.elf: libnano_Servo.a
+untitled.elf: libnano_ServoTimers.a
 untitled.elf: libnano_CORE.a
 untitled.elf: CMakeFiles/untitled.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled.elf"

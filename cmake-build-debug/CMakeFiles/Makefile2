@@ -64,39 +64,39 @@ CMAKE_SOURCE_DIR = "D:\Google Drive\Disertation\arduino\untitled"
 CMAKE_BINARY_DIR = "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/nano_ei_porta_speed.dir
+# Target rules for target CMakeFiles/nano_ServoTimers.dir
 
 # All Build rule for target.
-CMakeFiles/nano_ei_porta_speed.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_porta_speed.dir\build.make CMakeFiles/nano_ei_porta_speed.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_porta_speed.dir\build.make CMakeFiles/nano_ei_porta_speed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=40 "Built target nano_ei_porta_speed"
-.PHONY : CMakeFiles/nano_ei_porta_speed.dir/all
+CMakeFiles/nano_ServoTimers.dir/all: CMakeFiles/nano_CORE.dir/all
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/depend
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=32,33,34,35,36,37 "Built target nano_ServoTimers"
+.PHONY : CMakeFiles/nano_ServoTimers.dir/all
 
 # Include target in all.
-all: CMakeFiles/nano_ei_porta_speed.dir/all
+all: CMakeFiles/nano_ServoTimers.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_porta_speed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_porta_speed.dir/all
+CMakeFiles/nano_ServoTimers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 31
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ServoTimers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_porta_speed.dir/rule
+.PHONY : CMakeFiles/nano_ServoTimers.dir/rule
 
 # Convenience name for target.
-nano_ei_porta_speed: CMakeFiles/nano_ei_porta_speed.dir/rule
+nano_ServoTimers: CMakeFiles/nano_ServoTimers.dir/rule
 
-.PHONY : nano_ei_porta_speed
-
-# clean rule for target.
-CMakeFiles/nano_ei_porta_speed.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_porta_speed.dir\build.make CMakeFiles/nano_ei_porta_speed.dir/clean
-.PHONY : CMakeFiles/nano_ei_porta_speed.dir/clean
+.PHONY : nano_ServoTimers
 
 # clean rule for target.
-clean: CMakeFiles/nano_ei_porta_speed.dir/clean
+CMakeFiles/nano_ServoTimers.dir/clean:
+	$(MAKE) -f CMakeFiles\nano_ServoTimers.dir\build.make CMakeFiles/nano_ServoTimers.dir/clean
+.PHONY : CMakeFiles/nano_ServoTimers.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/nano_ServoTimers.dir/clean
 
 .PHONY : clean
 
@@ -138,705 +138,39 @@ clean: CMakeFiles/nano_CORE.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/nano_ei_PinChangeTiny24.dir
+# Target rules for target CMakeFiles/nano_Servo.dir
 
 # All Build rule for target.
-CMakeFiles/nano_ei_PinChangeTiny24.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeTiny24.dir\build.make CMakeFiles/nano_ei_PinChangeTiny24.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeTiny24.dir\build.make CMakeFiles/nano_ei_PinChangeTiny24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=37 "Built target nano_ei_PinChangeTiny24"
-.PHONY : CMakeFiles/nano_ei_PinChangeTiny24.dir/all
+CMakeFiles/nano_Servo.dir/all: CMakeFiles/nano_CORE.dir/all
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/depend
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=26,27,28,29,30,31 "Built target nano_Servo"
+.PHONY : CMakeFiles/nano_Servo.dir/all
 
 # Include target in all.
-all: CMakeFiles/nano_ei_PinChangeTiny24.dir/all
+all: CMakeFiles/nano_Servo.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_PinChangeTiny24.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_PinChangeTiny24.dir/all
+CMakeFiles/nano_Servo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 31
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_Servo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_PinChangeTiny24.dir/rule
+.PHONY : CMakeFiles/nano_Servo.dir/rule
 
 # Convenience name for target.
-nano_ei_PinChangeTiny24: CMakeFiles/nano_ei_PinChangeTiny24.dir/rule
+nano_Servo: CMakeFiles/nano_Servo.dir/rule
 
-.PHONY : nano_ei_PinChangeTiny24
-
-# clean rule for target.
-CMakeFiles/nano_ei_PinChangeTiny24.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeTiny24.dir\build.make CMakeFiles/nano_ei_PinChangeTiny24.dir/clean
-.PHONY : CMakeFiles/nano_ei_PinChangeTiny24.dir/clean
+.PHONY : nano_Servo
 
 # clean rule for target.
-clean: CMakeFiles/nano_ei_PinChangeTiny24.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_pindefs_speed.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_pindefs_speed.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_pindefs_speed.dir\build.make CMakeFiles/nano_ei_pindefs_speed.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_pindefs_speed.dir\build.make CMakeFiles/nano_ei_pindefs_speed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=39 "Built target nano_ei_pindefs_speed"
-.PHONY : CMakeFiles/nano_ei_pindefs_speed.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_pindefs_speed.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_pindefs_speed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_pindefs_speed.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_pindefs_speed.dir/rule
-
-# Convenience name for target.
-nano_ei_pindefs_speed: CMakeFiles/nano_ei_pindefs_speed.dir/rule
-
-.PHONY : nano_ei_pindefs_speed
+CMakeFiles/nano_Servo.dir/clean:
+	$(MAKE) -f CMakeFiles\nano_Servo.dir\build.make CMakeFiles/nano_Servo.dir/clean
+.PHONY : CMakeFiles/nano_Servo.dir/clean
 
 # clean rule for target.
-CMakeFiles/nano_ei_pindefs_speed.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_pindefs_speed.dir\build.make CMakeFiles/nano_ei_pindefs_speed.dir/clean
-.PHONY : CMakeFiles/nano_ei_pindefs_speed.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_pindefs_speed.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_EnableInterrupt.dir
-
-# All Build rule for target.
-CMakeFiles/nano_EnableInterrupt.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_EnableInterrupt.dir\build.make CMakeFiles/nano_EnableInterrupt.dir/depend
-	$(MAKE) -f CMakeFiles\nano_EnableInterrupt.dir\build.make CMakeFiles/nano_EnableInterrupt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=26 "Built target nano_EnableInterrupt"
-.PHONY : CMakeFiles/nano_EnableInterrupt.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_EnableInterrupt.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_EnableInterrupt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_EnableInterrupt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_EnableInterrupt.dir/rule
-
-# Convenience name for target.
-nano_EnableInterrupt: CMakeFiles/nano_EnableInterrupt.dir/rule
-
-.PHONY : nano_EnableInterrupt
-
-# clean rule for target.
-CMakeFiles/nano_EnableInterrupt.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_EnableInterrupt.dir\build.make CMakeFiles/nano_EnableInterrupt.dir/clean
-.PHONY : CMakeFiles/nano_EnableInterrupt.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_EnableInterrupt.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_PinChangeTiny25.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_PinChangeTiny25.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeTiny25.dir\build.make CMakeFiles/nano_ei_PinChangeTiny25.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeTiny25.dir\build.make CMakeFiles/nano_ei_PinChangeTiny25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=38 "Built target nano_ei_PinChangeTiny25"
-.PHONY : CMakeFiles/nano_ei_PinChangeTiny25.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_PinChangeTiny25.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_PinChangeTiny25.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_PinChangeTiny25.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_PinChangeTiny25.dir/rule
-
-# Convenience name for target.
-nano_ei_PinChangeTiny25: CMakeFiles/nano_ei_PinChangeTiny25.dir/rule
-
-.PHONY : nano_ei_PinChangeTiny25
-
-# clean rule for target.
-CMakeFiles/nano_ei_PinChangeTiny25.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeTiny25.dir\build.make CMakeFiles/nano_ei_PinChangeTiny25.dir/clean
-.PHONY : CMakeFiles/nano_ei_PinChangeTiny25.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_PinChangeTiny25.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_portc_speed.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_portc_speed.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_portc_speed.dir\build.make CMakeFiles/nano_ei_portc_speed.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_portc_speed.dir\build.make CMakeFiles/nano_ei_portc_speed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=42 "Built target nano_ei_portc_speed"
-.PHONY : CMakeFiles/nano_ei_portc_speed.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_portc_speed.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_portc_speed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_portc_speed.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_portc_speed.dir/rule
-
-# Convenience name for target.
-nano_ei_portc_speed: CMakeFiles/nano_ei_portc_speed.dir/rule
-
-.PHONY : nano_ei_portc_speed
-
-# clean rule for target.
-CMakeFiles/nano_ei_portc_speed.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_portc_speed.dir\build.make CMakeFiles/nano_ei_portc_speed.dir/clean
-.PHONY : CMakeFiles/nano_ei_portc_speed.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_portc_speed.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_PinChange1284.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_PinChange1284.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange1284.dir\build.make CMakeFiles/nano_ei_PinChange1284.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange1284.dir\build.make CMakeFiles/nano_ei_PinChange1284.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=33 "Built target nano_ei_PinChange1284"
-.PHONY : CMakeFiles/nano_ei_PinChange1284.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_PinChange1284.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_PinChange1284.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_PinChange1284.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_PinChange1284.dir/rule
-
-# Convenience name for target.
-nano_ei_PinChange1284: CMakeFiles/nano_ei_PinChange1284.dir/rule
-
-.PHONY : nano_ei_PinChange1284
-
-# clean rule for target.
-CMakeFiles/nano_ei_PinChange1284.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange1284.dir\build.make CMakeFiles/nano_ei_PinChange1284.dir/clean
-.PHONY : CMakeFiles/nano_ei_PinChange1284.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_PinChange1284.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_PinChange2560.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_PinChange2560.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange2560.dir\build.make CMakeFiles/nano_ei_PinChange2560.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange2560.dir\build.make CMakeFiles/nano_ei_PinChange2560.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=34 "Built target nano_ei_PinChange2560"
-.PHONY : CMakeFiles/nano_ei_PinChange2560.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_PinChange2560.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_PinChange2560.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_PinChange2560.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_PinChange2560.dir/rule
-
-# Convenience name for target.
-nano_ei_PinChange2560: CMakeFiles/nano_ei_PinChange2560.dir/rule
-
-.PHONY : nano_ei_PinChange2560
-
-# clean rule for target.
-CMakeFiles/nano_ei_PinChange2560.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange2560.dir\build.make CMakeFiles/nano_ei_PinChange2560.dir/clean
-.PHONY : CMakeFiles/nano_ei_PinChange2560.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_PinChange2560.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_PinChange328.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_PinChange328.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange328.dir\build.make CMakeFiles/nano_ei_PinChange328.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange328.dir\build.make CMakeFiles/nano_ei_PinChange328.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=35 "Built target nano_ei_PinChange328"
-.PHONY : CMakeFiles/nano_ei_PinChange328.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_PinChange328.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_PinChange328.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_PinChange328.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_PinChange328.dir/rule
-
-# Convenience name for target.
-nano_ei_PinChange328: CMakeFiles/nano_ei_PinChange328.dir/rule
-
-.PHONY : nano_ei_PinChange328
-
-# clean rule for target.
-CMakeFiles/nano_ei_PinChange328.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChange328.dir\build.make CMakeFiles/nano_ei_PinChange328.dir/clean
-.PHONY : CMakeFiles/nano_ei_PinChange328.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_PinChange328.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_PinChangeLeonardo.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_PinChangeLeonardo.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeLeonardo.dir\build.make CMakeFiles/nano_ei_PinChangeLeonardo.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeLeonardo.dir\build.make CMakeFiles/nano_ei_PinChangeLeonardo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=36 "Built target nano_ei_PinChangeLeonardo"
-.PHONY : CMakeFiles/nano_ei_PinChangeLeonardo.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_PinChangeLeonardo.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_PinChangeLeonardo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_PinChangeLeonardo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_PinChangeLeonardo.dir/rule
-
-# Convenience name for target.
-nano_ei_PinChangeLeonardo: CMakeFiles/nano_ei_PinChangeLeonardo.dir/rule
-
-.PHONY : nano_ei_PinChangeLeonardo
-
-# clean rule for target.
-CMakeFiles/nano_ei_PinChangeLeonardo.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_PinChangeLeonardo.dir\build.make CMakeFiles/nano_ei_PinChangeLeonardo.dir/clean
-.PHONY : CMakeFiles/nano_ei_PinChangeLeonardo.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_PinChangeLeonardo.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_External1284.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_External1284.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_External1284.dir\build.make CMakeFiles/nano_ei_External1284.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_External1284.dir\build.make CMakeFiles/nano_ei_External1284.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=27 "Built target nano_ei_External1284"
-.PHONY : CMakeFiles/nano_ei_External1284.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_External1284.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_External1284.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_External1284.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_External1284.dir/rule
-
-# Convenience name for target.
-nano_ei_External1284: CMakeFiles/nano_ei_External1284.dir/rule
-
-.PHONY : nano_ei_External1284
-
-# clean rule for target.
-CMakeFiles/nano_ei_External1284.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_External1284.dir\build.make CMakeFiles/nano_ei_External1284.dir/clean
-.PHONY : CMakeFiles/nano_ei_External1284.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_External1284.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_External328.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_External328.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_External328.dir\build.make CMakeFiles/nano_ei_External328.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_External328.dir\build.make CMakeFiles/nano_ei_External328.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=29 "Built target nano_ei_External328"
-.PHONY : CMakeFiles/nano_ei_External328.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_External328.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_External328.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_External328.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_External328.dir/rule
-
-# Convenience name for target.
-nano_ei_External328: CMakeFiles/nano_ei_External328.dir/rule
-
-.PHONY : nano_ei_External328
-
-# clean rule for target.
-CMakeFiles/nano_ei_External328.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_External328.dir\build.make CMakeFiles/nano_ei_External328.dir/clean
-.PHONY : CMakeFiles/nano_ei_External328.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_External328.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_External2560.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_External2560.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_External2560.dir\build.make CMakeFiles/nano_ei_External2560.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_External2560.dir\build.make CMakeFiles/nano_ei_External2560.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=28 "Built target nano_ei_External2560"
-.PHONY : CMakeFiles/nano_ei_External2560.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_External2560.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_External2560.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_External2560.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_External2560.dir/rule
-
-# Convenience name for target.
-nano_ei_External2560: CMakeFiles/nano_ei_External2560.dir/rule
-
-.PHONY : nano_ei_External2560
-
-# clean rule for target.
-CMakeFiles/nano_ei_External2560.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_External2560.dir\build.make CMakeFiles/nano_ei_External2560.dir/clean
-.PHONY : CMakeFiles/nano_ei_External2560.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_External2560.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_ExternalLeonardo.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_ExternalLeonardo.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalLeonardo.dir\build.make CMakeFiles/nano_ei_ExternalLeonardo.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalLeonardo.dir\build.make CMakeFiles/nano_ei_ExternalLeonardo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=30 "Built target nano_ei_ExternalLeonardo"
-.PHONY : CMakeFiles/nano_ei_ExternalLeonardo.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_ExternalLeonardo.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_ExternalLeonardo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_ExternalLeonardo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_ExternalLeonardo.dir/rule
-
-# Convenience name for target.
-nano_ei_ExternalLeonardo: CMakeFiles/nano_ei_ExternalLeonardo.dir/rule
-
-.PHONY : nano_ei_ExternalLeonardo
-
-# clean rule for target.
-CMakeFiles/nano_ei_ExternalLeonardo.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalLeonardo.dir\build.make CMakeFiles/nano_ei_ExternalLeonardo.dir/clean
-.PHONY : CMakeFiles/nano_ei_ExternalLeonardo.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_ExternalLeonardo.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_portd_speed.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_portd_speed.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_portd_speed.dir\build.make CMakeFiles/nano_ei_portd_speed.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_portd_speed.dir\build.make CMakeFiles/nano_ei_portd_speed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=43 "Built target nano_ei_portd_speed"
-.PHONY : CMakeFiles/nano_ei_portd_speed.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_portd_speed.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_portd_speed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_portd_speed.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_portd_speed.dir/rule
-
-# Convenience name for target.
-nano_ei_portd_speed: CMakeFiles/nano_ei_portd_speed.dir/rule
-
-.PHONY : nano_ei_portd_speed
-
-# clean rule for target.
-CMakeFiles/nano_ei_portd_speed.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_portd_speed.dir\build.make CMakeFiles/nano_ei_portd_speed.dir/clean
-.PHONY : CMakeFiles/nano_ei_portd_speed.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_portd_speed.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_ExternalTiny24.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_ExternalTiny24.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalTiny24.dir\build.make CMakeFiles/nano_ei_ExternalTiny24.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalTiny24.dir\build.make CMakeFiles/nano_ei_ExternalTiny24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=31 "Built target nano_ei_ExternalTiny24"
-.PHONY : CMakeFiles/nano_ei_ExternalTiny24.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_ExternalTiny24.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_ExternalTiny24.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_ExternalTiny24.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_ExternalTiny24.dir/rule
-
-# Convenience name for target.
-nano_ei_ExternalTiny24: CMakeFiles/nano_ei_ExternalTiny24.dir/rule
-
-.PHONY : nano_ei_ExternalTiny24
-
-# clean rule for target.
-CMakeFiles/nano_ei_ExternalTiny24.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalTiny24.dir\build.make CMakeFiles/nano_ei_ExternalTiny24.dir/clean
-.PHONY : CMakeFiles/nano_ei_ExternalTiny24.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_ExternalTiny24.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_ExternalTiny25.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_ExternalTiny25.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalTiny25.dir\build.make CMakeFiles/nano_ei_ExternalTiny25.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalTiny25.dir\build.make CMakeFiles/nano_ei_ExternalTiny25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=32 "Built target nano_ei_ExternalTiny25"
-.PHONY : CMakeFiles/nano_ei_ExternalTiny25.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_ExternalTiny25.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_ExternalTiny25.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_ExternalTiny25.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_ExternalTiny25.dir/rule
-
-# Convenience name for target.
-nano_ei_ExternalTiny25: CMakeFiles/nano_ei_ExternalTiny25.dir/rule
-
-.PHONY : nano_ei_ExternalTiny25
-
-# clean rule for target.
-CMakeFiles/nano_ei_ExternalTiny25.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_ExternalTiny25.dir\build.make CMakeFiles/nano_ei_ExternalTiny25.dir/clean
-.PHONY : CMakeFiles/nano_ei_ExternalTiny25.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_ExternalTiny25.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_portb_speed.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_portb_speed.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_portb_speed.dir\build.make CMakeFiles/nano_ei_portb_speed.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_portb_speed.dir\build.make CMakeFiles/nano_ei_portb_speed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=41 "Built target nano_ei_portb_speed"
-.PHONY : CMakeFiles/nano_ei_portb_speed.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_portb_speed.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_portb_speed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_portb_speed.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_portb_speed.dir/rule
-
-# Convenience name for target.
-nano_ei_portb_speed: CMakeFiles/nano_ei_portb_speed.dir/rule
-
-.PHONY : nano_ei_portb_speed
-
-# clean rule for target.
-CMakeFiles/nano_ei_portb_speed.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_portb_speed.dir\build.make CMakeFiles/nano_ei_portb_speed.dir/clean
-.PHONY : CMakeFiles/nano_ei_portb_speed.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_portb_speed.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_portj_speed.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_portj_speed.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_portj_speed.dir\build.make CMakeFiles/nano_ei_portj_speed.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_portj_speed.dir\build.make CMakeFiles/nano_ei_portj_speed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=44 "Built target nano_ei_portj_speed"
-.PHONY : CMakeFiles/nano_ei_portj_speed.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_portj_speed.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_portj_speed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_portj_speed.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_portj_speed.dir/rule
-
-# Convenience name for target.
-nano_ei_portj_speed: CMakeFiles/nano_ei_portj_speed.dir/rule
-
-.PHONY : nano_ei_portj_speed
-
-# clean rule for target.
-CMakeFiles/nano_ei_portj_speed.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_portj_speed.dir\build.make CMakeFiles/nano_ei_portj_speed.dir/clean
-.PHONY : CMakeFiles/nano_ei_portj_speed.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_portj_speed.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/nano_ei_portk_speed.dir
-
-# All Build rule for target.
-CMakeFiles/nano_ei_portk_speed.dir/all: CMakeFiles/nano_CORE.dir/all
-	$(MAKE) -f CMakeFiles\nano_ei_portk_speed.dir\build.make CMakeFiles/nano_ei_portk_speed.dir/depend
-	$(MAKE) -f CMakeFiles\nano_ei_portk_speed.dir\build.make CMakeFiles/nano_ei_portk_speed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=45 "Built target nano_ei_portk_speed"
-.PHONY : CMakeFiles/nano_ei_portk_speed.dir/all
-
-# Include target in all.
-all: CMakeFiles/nano_ei_portk_speed.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/nano_ei_portk_speed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 26
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/nano_ei_portk_speed.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/nano_ei_portk_speed.dir/rule
-
-# Convenience name for target.
-nano_ei_portk_speed: CMakeFiles/nano_ei_portk_speed.dir/rule
-
-.PHONY : nano_ei_portk_speed
-
-# clean rule for target.
-CMakeFiles/nano_ei_portk_speed.dir/clean:
-	$(MAKE) -f CMakeFiles\nano_ei_portk_speed.dir\build.make CMakeFiles/nano_ei_portk_speed.dir/clean
-.PHONY : CMakeFiles/nano_ei_portk_speed.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/nano_ei_portk_speed.dir/clean
+clean: CMakeFiles/nano_Servo.dir/clean
 
 .PHONY : clean
 
@@ -844,30 +178,12 @@ clean: CMakeFiles/nano_ei_portk_speed.dir/clean
 # Target rules for target CMakeFiles/untitled.dir
 
 # All Build rule for target.
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_ExternalTiny24.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_ExternalTiny25.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_ExternalLeonardo.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_PinChangeLeonardo.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_portb_speed.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_External1284.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_portk_speed.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_External328.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_PinChange328.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_portd_speed.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_portj_speed.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_External2560.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_pindefs_speed.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_EnableInterrupt.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_PinChangeTiny25.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_PinChange1284.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_portc_speed.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_porta_speed.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_PinChange2560.dir/all
-CMakeFiles/untitled.dir/all: CMakeFiles/nano_ei_PinChangeTiny24.dir/all
 CMakeFiles/untitled.dir/all: CMakeFiles/nano_CORE.dir/all
+CMakeFiles/untitled.dir/all: CMakeFiles/nano_ServoTimers.dir/all
+CMakeFiles/untitled.dir/all: CMakeFiles/nano_Servo.dir/all
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/depend
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=46,47,48 "Built target untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=38,39,40 "Built target untitled"
 .PHONY : CMakeFiles/untitled.dir/all
 
 # Include target in all.
@@ -877,7 +193,7 @@ all: CMakeFiles/untitled.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/untitled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 48
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 40
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/untitled.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/untitled.dir/rule
@@ -904,12 +220,12 @@ clean: CMakeFiles/untitled.dir/clean
 CMakeFiles/untitled-size.dir/all: CMakeFiles/untitled.dir/all
 	$(MAKE) -f CMakeFiles\untitled-size.dir\build.make CMakeFiles/untitled-size.dir/depend
 	$(MAKE) -f CMakeFiles\untitled-size.dir\build.make CMakeFiles/untitled-size.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=49 "Built target untitled-size"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" --progress-num=41 "Built target untitled-size"
 .PHONY : CMakeFiles/untitled-size.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/untitled-size.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 49
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 41
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/untitled-size.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/untitled-size.dir/rule
@@ -941,7 +257,7 @@ CMakeFiles/untitled-upload.dir/all: CMakeFiles/untitled.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/untitled-upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 48
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 40
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/untitled-upload.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/untitled-upload.dir/rule
@@ -973,7 +289,7 @@ CMakeFiles/upload.dir/all: CMakeFiles/untitled-upload.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 48
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 40
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/upload.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\Disertation\arduino\untitled\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/upload.dir/rule

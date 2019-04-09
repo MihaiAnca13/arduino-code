@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/Servo.h
+inttypes.h
+-
+avr/ServoTimers.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/avr/ServoTimers.h
+sam/ServoTimers.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/sam/ServoTimers.h
+samd/ServoTimers.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/samd/ServoTimers.h
+stm32f4/ServoTimers.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/ServoTimers.h
+nrf52/ServoTimers.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/nrf52/ServoTimers.h
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/avr/Servo.cpp
+avr/interrupt.h
+-
+Arduino.h
+-
+Servo.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/avr/Servo.h
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/avr/ServoTimers.h
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/nrf52/Servo.cpp
+Arduino.h
+-
+Servo.h
+-
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/nrf52/ServoTimers.h
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/sam/Servo.cpp
+Arduino.h
+-
+Servo.h
+-
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/sam/ServoTimers.h
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/samd/Servo.cpp
+Arduino.h
+-
+Servo.h
+-
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/samd/ServoTimers.h
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/Servo.cpp
+ServoTimers.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/ServoTimers.h
+boards.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/boards.h
+io.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/io.h
+pwm.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/pwm.h
+math.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/math.h
+
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/ServoTimers.h
+types.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/types.h
+timer.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/timer.h
+wiring.h
+C:/Program Files (x86)/Arduino/libraries/Servo/src/stm32f4/wiring.h
+

@@ -299,6 +299,12 @@ nano_IRLibCPE_LIB_DEPENDS:STATIC=general;nano_CORE;
 nano_NeoSWSerial_LIB_DEPENDS:STATIC=general;nano_CORE;
 
 //Dependencies for the target
+nano_ServoTimers_LIB_DEPENDS:STATIC=general;nano_CORE;
+
+//Dependencies for the target
+nano_Servo_LIB_DEPENDS:STATIC=general;nano_CORE;
+
+//Dependencies for the target
 nano_SoftwareSerial_LIB_DEPENDS:STATIC=general;nano_CORE;
 
 //Dependencies for the target
